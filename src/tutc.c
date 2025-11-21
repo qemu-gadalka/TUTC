@@ -15,7 +15,7 @@ int main() {
         double *u = &b;
         printf("the double >>> %lf\n", b);
         printf("the double value >>> 42.526769\n");
-        printf("double address: %p\n", (void*)&b);
+        printf("double address: %p\n\n", (void*)&b);
         int x = 10;
         int *p = &x;
         printf("now x and &x\n");
